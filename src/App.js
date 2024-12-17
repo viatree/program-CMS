@@ -48,10 +48,10 @@ const App = () => {
             path="/"
             element={isAuthenticated ? <Login /> : <Navigate to="*" />}
           />
-          <Route path="/login" name="Login Page" element={<Login />} />
+          <Route path="/*" name="Login Page" element={<Login />} />
           <Route path="/404" name="Page 404" element={<Page404 />} />
           <Route path="/500" name="Page 500" element={<Page500 />} />
-          <Route path="*" name="Home" element={<DefaultLayout />} />
+          <Route path="/home" name="Home" element={<DefaultLayout />} />
         </Routes>
       </Suspense>
     </HashRouter>
