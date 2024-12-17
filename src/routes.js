@@ -31,7 +31,6 @@ const reportWo = React.lazy(() => import('./views/adminit/reportWo'))
 // const user = React.lazy(() => import('./views/adminit/user'))
 
 // HRGA
-const homePermintaan = React.lazy(() => import('./views/hrga/homePermintaan'))
 const permintaan = React.lazy(() => import('./views/hrga/permintaan'))
 const bankSoal = React.lazy(() => import('./views/hrga/bankSoal'))
 const dataTamu = React.lazy(() => import('./views/hrga/dataTamu'))
@@ -91,7 +90,6 @@ const routes = [
   // { path: '/user', name: 'User', element: user },
   
   // AdminHRGA Department
-  { path: '/homePermintaan', name: 'Home Permintaan', element: homePermintaan },
   { path: '/permintaan', name: 'Permintaan', element: permintaan },
   { path: '/bankSoal', name: 'Data Bank Soal', element: bankSoal },
   { path: '/dataTamu', name: 'Data Tamu', element: dataTamu },

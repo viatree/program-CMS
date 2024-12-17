@@ -255,12 +255,6 @@ if (userType === 'adminit') {
       ]
     } else if (userType === 'adminhrga') {
       menuItems = [
-        {
-          component: CNavItem,
-          name: 'Home Permintaan',
-          to: '/homePermintaan',
-          icon: <CIcon icon={cilCursor} customClassName="nav-icon" />,
-        },
       
         {
           component: CNavItem,
