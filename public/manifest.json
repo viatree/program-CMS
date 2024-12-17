@@ -1,9 +1,9 @@
 {
-  "short_name": "Program-wh",
-  "name": "Program-WH",
+  "short_name": "Program-CMS",
+  "name": "Program-CMS",
   "icons": [
     {
-      "src": "./src/assets/images/MP-Logo.png",
+      "src": "./src/assets/images/green-logo.png",
       "sizes": "100x100",
       "type": "image/png"
     }
