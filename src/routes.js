@@ -11,7 +11,6 @@ const asset = React.lazy(() => import('./views/adminit/asset'))
 const divs = React.lazy(() => import('./views/adminit/div'))
 const divsForm = React.lazy(() => import('./views/adminit/divForm'))
 
-const homeAsset = React.lazy(() => import('./views/adminit/homeAsset'))
 const jadwalPerawatan = React.lazy(() => import('./views/adminit/jadwalPerawatan'))
 
 const karyawan = React.lazy(() => import('./views/adminit/karyawan'))
@@ -69,8 +68,6 @@ const routes = [
   { path: '/div/add', name: 'Add Lokasi', element: divsForm },
   { path: '/div/edit/:id', name: 'Edit Lokasi', element: divsForm},
 
-
-  { path: '/homeAsset', name: 'Home Asset', element: homeAsset },
   { path: '/jadwalPerawatan', name: 'Jadwal Perawatan', element: jadwalPerawatan },
 
   { path: '/karyawan', name: 'Karyawan', element: karyawan },
