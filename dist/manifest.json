@@ -1,0 +1,15 @@
+{
+  "short_name": "Program-CMS",
+  "name": "Program-CMS",
+  "icons": [
+    {
+      "src": "./src/assets/images/green-logo.png",
+      "sizes": "100x100",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
