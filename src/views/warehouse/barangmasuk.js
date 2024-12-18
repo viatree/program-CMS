@@ -10,10 +10,10 @@ import { cilPlus, cilSave } from '@coreui/icons';
 const BarangMasuk = () => {
   // Data dummy
   const [data, setData] = useState([
-    { no: 1, tgl:'01/10/2024', customer: 'PT. AGRINDO MAJU', kodeBarang: 'MP-AGRO0010', noRak:'22A',namaItem: 'BOX VALVE ASSY SC-20/30 37X37X70 MM (2004)', jumlah: '1.268' },
-    { no: 2, tgl:'01/10/2024', customer: 'PT. AGRINDO MAJU', kodeBarang: 'MP-AGRO0012', noRak:'24B',namaItem: 'BOX VALVE ASSY SC/N-45 43X43X80 MM (2004)', jumlah: '1.268' },
-    { no: 3, tgl:'01/10/2024', customer: 'PT. AGRINDO MAJU', kodeBarang: 'MP-AGRO0013', noRak:'27C', namaItem: 'PLASTIK TASCO 70X100 MM PP 80 MICRON', jumlah: '1.268' },
-    { no: 4, tgl:'01/10/2024', customer: 'PT. AIMSKINCARE', kodeBarang: 'MP-AIM00002', noRak:'24A', namaItem: '102558 INNER BOX RIGO LIQUID POWDER 100 ML (2305)', jumlah: '1.268' },
+    { no: 1, tgl:'01/10/2024', customer: 'PT. MAJU', kodeBarang: '0010', noRak:'22A',namaItem: 'BOX MM (2004)', jumlah: '1.268' },
+    { no: 2, tgl:'01/10/2024', customer: 'PT.MAJU', kodeBarang: '0012', noRak:'24B',namaItem: 'BOX MM (2004)', jumlah: '1.268' },
+    { no: 3, tgl:'01/10/2024', customer: 'PT.MAJU', kodeBarang: '0013', noRak:'27C', namaItem: 'PLASTIK ', jumlah: '1.268' },
+    { no: 4, tgl:'01/10/2024', customer: 'PT.SKINCARE', kodeBarang: '00002', noRak:'24A', namaItem: 'INNER BOX', jumlah: '1.268' },
   ]);  
 
   // State untuk Modal
